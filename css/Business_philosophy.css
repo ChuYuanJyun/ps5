@@ -1,0 +1,42 @@
+.Business_philosophy_bg{
+background-image: url(../img/BPBG.jpg);
+display: flex;
+height: 400px;
+background-size: cover;
+background-position: 0 center;
+align-items: center;
+justify-content: center;
+margin-bottom: 40px;
+}
+h1{
+    font-size: 80px;
+    color:wheat;
+    margin-top: 20px;
+
+}
+.Business_philosophy_bg_main h2{
+    font-size: 32px;
+    text-align: center;
+    
+    padding-top: 20px;
+}
+
+.Business_philosophy_bg_main{
+    width: 100%;
+    margin: 50px auto 100px;
+
+}
+
+.Business_philosophy_bg_img img{
+    margin: 0 auto;
+    height: 400px;
+
+}
+
+.Business_philosophy_bg_img p{
+    padding-top: 20px;
+    /* text-align:left;   */
+    /* text-align: justify; */
+    font-size: 40px;
+    padding-bottom: 10px;
+}

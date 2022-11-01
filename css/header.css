@@ -1,0 +1,132 @@
+
+.header{
+    width: 100%;
+    background-color: rgba(167,115,68,0.58);
+    height: 110px;
+    position: fixed;
+}
+
+.header-wrapper{
+    width: 1920px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo{
+    width: 300px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.logo-a{
+    display: block;
+    width: 100px;
+    height: 90px;
+}
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 800px;
+    }
+    
+    .nav-ul{
+        display: flex;
+    }
+    
+    .nav-ul li{
+        margin: 0 10px;
+    }
+    
+    .nav li a{
+        font-size: 20px;
+    }
+
+
+    .nav-item{
+        width: 110px;
+        position: relative;
+    }
+    .nav-item::after{
+        content: "";
+        display: block;
+        width: 0%;
+        height: 1.8px;
+        background-color: white;
+        position: absolute;
+        bottom: -0.05em;
+        transition: width .4s ease-in;
+    }    
+    .nav-item:hover.nav-item::after{
+        width: 100%;
+    }
+    .fa-angle-down{
+        margin-left: 5px;
+        transition: transform .4s ease-in;
+    }
+
+    .nav a{
+        display: block;
+        text-align: center;
+        line-height: 50px;
+        text-decoration: none;
+        color: white;
+        text-shadow: 5px 3px 5px #333;
+        transition: color .4s ease-in;
+        position: relative;
+        font-size: 20px;
+    }
+
+    .second_nav{
+        display: none;
+        position: absolute;
+    }
+    
+    .second_nav ul{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .second_nav ul li{
+        width: 230px;
+        margin: 0 auto;
+        background-color: rgba(0,0,0,.8);
+    }
+    
+    .second_nav a{
+        display: block;
+        text-align: left;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 4em;
+        margin-left: 15px;
+    }
+
+    .top-icon{
+        display: flex;
+        width: 125px;
+        margin-left: 30px;
+    }
+    
+    .top-icon li{
+        width: 23px;
+    }
+    
+    .top-icon li a{
+        color: white;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+    }
+    
+    .top-icon a:hover{
+        color: tomato;
+    }
+    
+    .top-icon .fa-solid{
+        width: 23.5px;
+        height: 21px;
+    }
